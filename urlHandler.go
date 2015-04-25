@@ -13,11 +13,6 @@ func main() {
 	var args1, args2 string = "", ""
 	var _url, _line string = "", ""
 
-	for v, i := range _args {
-		fmt.Print("i ::::" + i)
-		fmt.Println("::: v ::::" + strconv.Itoa(v))
-	}
-
 	if len(_args) >= 3 {
 		args1 = _args[1]
 		args2 = _args[2]
